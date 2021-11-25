@@ -21,7 +21,7 @@ function key(password, salt) {
     return decrypted
 }
 
-function bot(token) {
+function bot() {
     return new Promise((resolve,reject) => {
         client.on('ready', () => {
             resolve()
